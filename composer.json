@@ -1,4 +1,18 @@
 {
+    "name": "ferrumfist/ci",
+    "description": "",
+    "license": "Apache-2.0",
+    "autoload": {
+        "psr-4": {
+            "Ferrumfist\\Ci\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yaroslav Spirin",
+            "email": "yspirin@plesk.com"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^10.1"
     },
